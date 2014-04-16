@@ -1,1 +1,24 @@
-/* My Styles */
+/* Masthead */
+header {
+	position: relative;
+}
+header h1 {
+	position: absolute;
+	left: 48px;
+	bottom: 0;
+	font-size: 2em;
+}
+/*column 1 styleing */
+.tabs-content{
+	background: rgba(247, 247, 247, 0.47);
+}
+
+
+/*column 2 styleing */
+.panel.callout {
+	background: rgba(95, 126, 113, 0.33)
+	
+	}
+.reveal-modal-bg {
+	background: rgba(157, 241, 225, 0.45);
+}
