@@ -8,6 +8,11 @@ header h1 {
 	bottom: 0;
 	font-size: 2em;
 }
+header div img {
+	width: 960px;
+	height: 280px;
+	
+}
 /*column 1 styleing */
 .tabs-content{
 	background: rgba(247, 247, 247, 0.47);
