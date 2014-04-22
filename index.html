@@ -1,86 +1,115 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Home My EWU</title>
-    
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/styles.css" />    
-    
-    <script src="js/vendor/modernizr.js"></script>
-  
+    <title>EWU portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/normalize.css" rel="stylesheet" media="screen">
+    <link href="css/foundation.css" rel="stylesheet" media="screen">
+    <link href="css/foundation-icons.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
   </head>
-  
   <body>
   
+
+    
+        <!-- Top Bar -->
+    <div class="contain-to-grid fixed">    
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name eagle">
+            <h1 >
+              <a href="#">Emily Schroeder</a>
+            </h1>
+          </li>
+
+         <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+
+            <li class="has-dropdown"><a href="#">Services</a>
+              <ul class="dropdown">
+                <li><a href="#">Financial Aid and Scholarships</a></li>
+                <li><a href="#">Academic Advising</a></li>
+                <li><a href="#">Disability Support Services</a></li>
+
+              </ul>
+
+            </li>
+            <li class="has-dropdown"><a href="#">Community</a>
+              <ul class="dropdown">
+                <li><a href="#">Building Hours</a></li>
+                <li><a href="#">What's Happening on campus?</a></li>
+                <li><a href="#">Staff &amp Teachers info.</a></li>
+                <li><a href="#">Campus Recreations</a></li>
+                <li><a href="#">Eastern Magazine</a></li>
+
+              </ul>
+            </li>
+            <li class="has-dropdown"><a href="#">My Resorces</a>
+              <ul class="dropdown">
+                <li><a href="https://canvas.ewu.edu/">Canvas</a></li>
+                <li><a href="https://eaglenet.ewu.edu/">Eaglenet</a></li>
+                <li><a href="https://login.microsoftonline.com/login.srf?wa=wsignin1.0&rpsnv=3&ct=1398142603&rver=6.1.6206.0&wp=MBI_KEY&wreply=https:%2F%2Fwww.outlook.com%2Fowa%2F&id=260563&whr=eagles.ewu.edu&CBCXT=out">My Email</a></li>
+
+              </ul>
+            </li>
+            <li class="has-form">
+              <a  class="button alert radius">Make a Payment</a>
+            </li>
+            
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+    
     <!-- Masthead -->
     <header class="row">
       <div class="large-12 columns">
-        
-        <img src="./index_files/960x280" alt="">
-        
-        <h1>Emily Schroeder</h1>
-
-      </div>
+        <h1>Emily Schroeder
+          <p><a href="#" class="button small radius success">My Major</a></p></h1>
+        </div>
     </header>
+    <!-- End Masthead -->  
+ 
+      
     
-    <!-- Top Bar -->
-    <div class="fixed">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="#">My EWU</a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-      </ul>
 
-      <section class="top-bar-section">
-        <!-- Right Nav Section -->
-            <ul class="right">
-              <li class="has-form">
-                <div class="row collapse">
-                  <div class="large-8 small-9 columns">
-                    <input type="text" placeholder="Find Stuff">
-                  </div>
-                  <div class="large-4 small-3 columns">
-                    <a href="#" class="alert button expand">Search</a>
-                  </div>
-                </div>
-              </li>
-              <li class="has-dropdown">
-                <a href="#">Resorces</a>
-                <ul class="dropdown">
-                  <li><a href="#">EagleNet</a></li>
-                  <li><a href="#">Canvas</a></li>
-                 <li><a href="#">My Email</a></li>
-                </ul>
-              </li>
-            </ul>
-      </section>
-    </nav>
-    </div>
     <!-- Band of Content -->
     <article class="row">
+      <div><hr></div>
       
       <!-- Column 1 -->
-      <div class="large-6 columns">
-        <h2>Student Info.</h2>
+      <div class="medium-7 columns">
+        
         
         <!-- Student Info Tabs -->
         <dl class="tabs" data-tab>
-          <dd class="active"><a href="#email">Email</a></dd>
-          <dd><a href="#accounts">Accounts</a></dd>
+          <dd class="active"><a href="#calender">My Calender</a></dd>
+          <dd><a href="#assingments">Assingments</a></dd>
           <dd><a href="#grades">Grades</a></dd>
         </dl>
 
         <div class="tabs-content">
-          <div class="content active" id="email">
-            <p>Email</p>
+          <div class="content active" id="calender">
+            <img src="img/cal.png" alt="">
           </div>
-          <div class="content" id="accounts">
-            <p>Accounts</p>
+          <div class="content" id="assingments">
+            <div data-alert class="alert-box success radius">Assingment Due Tommorow @ 10:00 AM<a href="#" class="close">&times;</a>
+            </div>
+            <h1><small>Upcoming Assignments</small></h1>
+              <h3><small>Web 2</small></h3>
+              <ul class="inline-list">
+              <li><a href="#">P3: MyEWU Portal : 4/23 @ 1pm</a></li>
+              <li><a href="#">Assingment 2 : 4/27 @ Midnight</a></li>
+            </ul>
+            <h3><small>VCD 2</small></h3>
+              <ul class="inline-list">
+              <li><a href="#">P3 ad concepts : 4/25 @ 10am</a></li>
+
+            </ul>
+
           </div>
           <div class="content" id="grades">
             <p>Grades</p>
@@ -88,52 +117,90 @@
         </div>
       </div>
       
-      <!-- Column 2 -->
-      <div class="large-6 columns">
-        <h2>Column 2</h2>
-        <div class="panel callout">
-          <h5>Assingments Due Today</h5>
-          <ul class="side-nav">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
+<!-- Column 2 -->
+<!-- Twitter News -->
+  <div class="medium-5 columns show-for-medium-up">
+      
+<a class="twitter-timeline" href="https://twitter.com/EWUEagles" data-widget-id="458379162072260608">Tweets by @EWUEagles</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<hr>
+
+<div><a href="#" class="button small radius">My Email</a></div>
 
 
-      </div>
+<!-- End of Twitter News -->
+    </div>
+    
+    
 
     </article> 
     
     <!-- Footer -->
     <footer class="row">
+      <div><hr></div>
+
+      <div class="columns large-4 medium-12 small-12">
+        <i class="fi-clipboard-notes"></i>
+        <h3><small>Jobs, Internships &amp Careers</small></h3>
+        <p>Will you have a job when you graduate? We're glad you asked.
+        EWU excels at helping students find opportunities during college and after graduation, and EWU's Career Services continues to grow in order to provide you with more services, tools and strategies to land your first job after graduation. All new students should set up an appointment with <a href="http://access.ewu.edu/career-services">Career Services</a> to get on the right track to career succes.
+        </p> 
+      </div>
+
       
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
+      <div class="columns large-4 medium-6 small-12">
+        <i class="fi-play-circle"></i>
+        <h3><small>Campus Recreation</small></h3>
+        <p>As a student at EWU, you have a lot to brag about. At the bare minimum, your Facebook wall will make your friends want to steal your student ID and use it to take part in campus recreation. Thousands of students take part each quarter, and it's just another reasons to love EWU.</p>   
+          <ul>
+              <li><a href="http://www.ewu.edu/club-sports"></a>Club Sports</li>
+              <li><a href="http://www.ewu.edu/campus-recreation/sports-and-recreation-center">Sports and Recreation Center (The PHASE)</a></li>
+              <li><a href="http://www.ewu.edu/urc">University Recreation Center (URC)</a></li>
+              <li><a href="http://www.ewu.edu/campus-recreation">Campus Recreation Home Page</a></li>
+              <li><a href="http://www.ewu.edu/epic">EPIC Adventures</a></li>
+              <li><a href="http://www.ewu.edu/campus-recreation/ewu-challenge-course">Challenge Course</a></li>
+              <li><a href="http://www.ewu.edu/imsports">Intramural Sports</a></li>
+           </ul>
+        </div>
 
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
-      </div>
+        <div class="columns large-4 medium-6 small-12">
+          <i class="fi-torsos-all"></i>
+          <h3><small>Student Activities</small></h3>
+          <p>When you talk about opportunity at EWU, you're not just talking about jobs or internships at exciting companies--although you can find plenty of those. You're talking about clubs, volunteering, and leadership you don't get at other colleges or universities.
 
-      <div class="columns large-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sunt quaerat a enim est accusantium facilis nisi iusto non blanditiis aperiam vel eum. Non, sunt sequi nulla eaque praesentium consectetur?</p>   
+          With more than 130 clubs, a new office of community engagement, and plenty of chances to gain leadership experience, EWU lets you find a way to stand out and fit in at the same time.</p> 
+          <h4><small>Ways to Participate, Serve and Lead at EWU</small></h4>
+            <ul>
+              <li><a href="">Student Activities Involvement and Leadership (SAIL)</a></li>
+              <li><a href="">Clubs & Organizations</a></li>
+              <li><a href="">The Office of Community Engagement</a></li>
+              <li><a href="">Career Services</a></li>
+            </ul>
       </div>
 
     </footer>
-
+        <!-- End of Footer -->
         <!-- Modal -->
-    <div id="myModal" class="reveal-modal" data-reveal>
-      <p>News update</p>
+    <div id="myModal" class="reveal-modal medium " data-reveal>
+      <blockquote>"The beautiful thing about learning is noboy can take it away from you".<cite>B.B King</cite></blockquote>
+      <h1><small>Updates</small></h1>
+      <ul>
+        <li>New Assingment</li>
+        <li>New Calender event</li>
+      </ul>
+
       <a class="close-reveal-modal">&#215;</a>
     </div>
-
+        <!-- End of Modal -->
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
     <script src="js/scripts.js"></script>
-  
+
+    <script>
+    $(document).foundation();
+  </script>
   </body>
 
 </html>
